@@ -13,7 +13,9 @@
 - This file is shared across the Macs via the repo ~/Code/claude-config (~/.claude/CLAUDE.md is a symlink to it). If it has not been pulled for more than a day, run `git -C ~/Code/claude-config pull` at the start of the session. After changing it, commit and ask me before pushing.
 - Each Mac needs its own tool setup (Homebrew, Node, Java 21, firebase-tools, uv). Pull repos with `git pull` before working.
 - Never touch work OneDrive folders unless I ask. Personal files go into iCloud Drive.
+- When moving or reorganizing files: first write a move plan (source → destination, size) to `~/Library/Mobile Documents/com~apple~CloudDocs/move-log.md`, excluding OneDrive and work folders. Wait for my OK, then move and mark each row done, so another Mac can continue from the log.
 
 ## Working style
 - If I give a rule or spec, implement my version first. If you think another approach is better, propose it separately and wait for my OK before switching.
+- For UI behavior or sync/delete logic: before coding, write a short behavior spec (rules, edge cases such as after save, after delete, offline and the first item, and the tests you will add). If my rule and your proposal differ, show both. Wait for my OK before coding.
 - Stay on the current task. Do not switch to other projects unless I ask.
