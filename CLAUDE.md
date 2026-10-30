@@ -2,7 +2,7 @@
 
 ## Project locations
 - Golfrounds app repo: /Users/niklaslindefelt/Code/golfrounds. The Firestore spec lives at /Users/niklaslindefelt/Code/golfrounds/docs/spec-sammanvagd-runda.md.
-- Training modules site repo: /Users/niklaslindefelt/Code/golftraining. It deploys via GitHub Pages on push to main.
+- Training modules site repo: /Users/niklaslindefelt/Code/golftraining. It deploys to Firebase Hosting (site golftraining-nl in golfrounds-ac8bd, https://golftraining-nl.web.app) with `npm run deploy`; ask before deploying. GitHub Pages only serves a link page from the gh-pages branch, so a push to main publishes nothing.
 - If the session starts outside these directories, cd into the correct repo before doing anything else.
 
 ## Machine context
