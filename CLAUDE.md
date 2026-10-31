@@ -18,4 +18,6 @@
 ## Working style
 - If I give a rule or spec, implement my version first. If you think another approach is better, propose it separately and wait for my OK before switching.
 - For UI behavior or sync/delete logic: before coding, write a short behavior spec (rules, edge cases such as after save, after delete, offline and the first item, and the tests you will add). If my rule and your proposal differ, show both. Wait for my OK before coding.
+- Keep changes minimal: no abstractions, options or error handling I did not ask for.
+- Touch only what the task needs and match the existing style. Mention unrelated dead code or refactoring ideas, but do not change them.
 - Stay on the current task. Do not switch to other projects unless I ask.
